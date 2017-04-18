@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg class="fb-icon" version="1.0" xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 128.000000 128.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,128.000000) scale(0.100000,-0.100000)"
+fill="none" stroke="none">
+<path d="M10 635 l0 -625 630 0 630 0 0 625 0 625 -630 0 -630 0 0 -625z m810
+325 l0 -70 -48 0 c-59 0 -72 -12 -72 -67 l0 -42 62 -3 63 -3 -3 -45 c-6 -98
+-7 -100 -68 -100 l-54 0 0 -195 0 -195 -85 0 -85 0 0 195 0 195 -40 0 -41 0 3
+73 3 72 38 3 37 3 0 53 c0 92 32 154 95 182 17 7 66 13 113 14 l82 0 0 -70z"  fill="#fff"/>
+</g>
+</svg>
