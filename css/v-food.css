@@ -291,6 +291,7 @@ a {
     
 }
 
+
 .section2-main-blocks > img, .location > img  {
     margin: 7px;
 }
@@ -501,7 +502,12 @@ a {
     position: relative;
 }
 
-.foodlook1, .foodlook2, .foodlook3, .foodlook4, .foodlook5, .foodlook6, .foodlook7, .foodlook8 {
+.foodblock {}
+.foodblock-img {}
+.foodblock-info {}
+.foodblock:hover .foodblock-info {}
+
+.foodblock {
     width: 25%;
     height: 255px;
     color: #fff;
@@ -509,18 +515,22 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.foodlook-block {
-    width: 25%;
-    height: 255px;
+.foodblock-img {
+    width: 100%;
+    height: 100%;
+}
+
+.foodblock-info {
+    width: 100%;
     position: absolute;
     height: 255px;
     background-color: rgba(192, 84, 136, .8);
+    display: none;
 }
-    
-.foodlook-block:before {
+
+.foodblock-info:before {
     content: '';
     position: absolute;
     width: 95%;
@@ -530,85 +540,25 @@ a {
     border-radius: 5px;
 } 
 
-.recepi2 {
-    position: absolute;
-    left: 338px;
-}
-
-.recepi3 {
-    position: absolute;
-    left: 675px;
-}
-
-.recepi4 {
-    position: absolute;
-    left: 1012px;
-}
-.recepi5 {
-    position: absolute;
-    top: 255px;
-}
-
-.recepi6 {
-    position: absolute;
-    top: 255px;
-    left: 338px;
-}
-
-.recepi7 {
-    position: absolute;
-    top: 255px;
-    left: 675px;
-}
-
-.recepi8 {
-    position: absolute;
-    top: 255px;
-    left: 1012px;
-}
-
-.foodlook-block  .art-title {
+.foodblock  .art-title {
     color: #fff;
     font-size: 14pt;
     padding-bottom: 20px;
     border-bottom: 2px dashed white;
 }
 
-.section6-hover-item1, .section6-hover-item2, .section6-hover-item3, .section6-hover-item4, .section6-hover-item5, .section6-hover-item6, .section6-hover-item7, .section6-hover-item8 {
-    visibility: hidden;    
+.foodblock:hover .foodblock-info {
+     display: flex;
 }
-.foodlook1:hover + .section6-hover-item1 {
-     visibility: visible;
-}
-.foodlook2:hover + .section6-hover-item2 {
-     visibility: visible;
-} 
-.foodlook3:hover + .section6-hover-item3 {
-     visibility: visible;
-} 
-.foodlook4:hover + .section6-hover-item4 {
-     visibility: visible;
-}
-.foodlook5:hover + .section6-hover-item5 {
-     visibility: visible;
-}
-.foodlook6:hover + .section6-hover-item6 {
-     visibility: visible;
-} 
-.foodlook7:hover + .section6-hover-item7 {
-     visibility: visible;
-} 
-.foodlook8:hover + .section6-hover-item8 {
-     visibility: visible;
-} 
 
-.section6-text {
+.foodblock-text {
     font-size: 10pt;
     text-align: center;
     width: 300px;
     height: 100px;
     
 }
+
 
 /*section7*/
 
