@@ -605,7 +605,7 @@ a {
     border-radius: 50px;
 }
 
-.section7-button {
+.slaider-button {
     width: 12px;
     height: 12px;
     border-radius: 5px;
@@ -613,7 +613,7 @@ a {
     position: relative;
 }
 
-.section7-buttons input {
+.slaider input {
     visibility: hidden;
 }
 
@@ -621,12 +621,12 @@ a {
     position: absolute;
 }
 
-#Customer1:checked ~ .section7-button {
+#Customer1:checked ~ .slaider-button {
     background-color: #c05488;
 }
-#Customer2:checked ~ .section7-button {
+#Customer2:checked ~ .slaider-button {
     background-color: #c05488;
 }
-#Customer3:checked ~ .section7-button {
+#Customer3:checked ~ .slaider-button {
     background-color: #c05488;
 }
