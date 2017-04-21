@@ -630,3 +630,24 @@ a {
 #Customer3:checked ~ .slaider-button {
     background-color: #c05488;
 }
+
+/*section8*/
+
+.section8 {
+    height: 224px;
+    width: 100%;
+    background-color: #efc35e;
+    color: #fff;
+}
+
+.section8 img {
+    width: 25px;
+    height: 25px;
+}
+.section8-item {
+    height: 130px;
+}
+
+.section8-stat {
+    font-size: 30pt;
+}
