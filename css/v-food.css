@@ -96,6 +96,11 @@ body {
     height: 30px;
 }
 
+.social-icon img {
+    width: 20px;
+    height: 20px;
+}
+
 .in {
     margin-top: 2.5px;
 }
@@ -703,6 +708,10 @@ a {
 .stuff-info-text {
     height: 75px;
     width: 150px;
+}
+
+.stuff-info-text .socials {
+width: 100px;
 }
 
 .stuff-block-hover {
