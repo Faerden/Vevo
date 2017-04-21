@@ -24,6 +24,7 @@ body {
     font-family: Roboto Slab;
     font-weight: normal;
     color: #767373;
+    font-size: 11pt;
 }
 
 .art-title {
@@ -67,6 +68,7 @@ body {
 
 .flex_column_start {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -445,14 +447,10 @@ a {
 .section5 {
     height: 700px;
     background-color: #fff; 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
-.section5-flex {
-    width: 1200px;
-    margin-top: 50px;
+.section5 .container {
+    height: 580px;
 }
 
 .section5 img {
@@ -490,6 +488,7 @@ a {
 .section5-content2 {
     width: 500px;
     height: 100px;
+    margin-bottom: 50px;
 }
 
 /*section6*/
@@ -734,4 +733,50 @@ width: 100px;
     height: 304px;
     width: 251px;
     display: flex;
+}
+
+/*section10*/
+.section10 {
+    background-color: rgba(239, 239, 239, .7);
+    height: 1300px;
+}
+.section-title {
+    height: 100px;
+    width: 530px;
+    margin-right: 600px;
+    margin-bottom: 60px;
+}
+
+.blog-item {
+    position: relative;
+    border: 2px solid #b2b0b0;
+    margin-top: 25px;
+    width: 995px;
+    height: 284px;
+    
+}
+
+.blog-item img {
+    width: 388px;
+    height: 282px;
+}
+
+.date-of-item {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    background-color: rgb(192, 84, 136);
+    color: #fff;
+}
+
+
+.blog-item-info {
+    height: 282px;
+}
+.section10-button {
+    width: 99px;
+    height: 37px;
+    border: 1px solid rgba(118, 115, 115, .7);
+    color: #767373; 
 }
