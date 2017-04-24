@@ -744,21 +744,25 @@ width: 100px;
     height: 100px;
     width: 530px;
     margin-right: 600px;
-    margin-bottom: 60px;
+    margin-bottom: 65px;
+    
 }
 
 .blog-item {
     position: relative;
     border: 2px solid #b2b0b0;
-    margin-top: 25px;
+    margin-bottom: 25px;
     width: 995px;
     height: 284px;
+    background-color: #fff;
     
 }
 
 .blog-item img {
     width: 388px;
-    height: 282px;
+    height: 284px;
+    margin-right: 25px;
+    margin-top: 3px;
 }
 
 .date-of-item {
@@ -770,7 +774,9 @@ width: 100px;
     color: #fff;
 }
 
-
+.blog-subsection {
+    margin-right: 10px;
+}
 .blog-item-info {
     height: 282px;
 }
@@ -779,4 +785,5 @@ width: 100px;
     height: 37px;
     border: 1px solid rgba(118, 115, 115, .7);
     color: #767373; 
+    margin-bottom: 25px;
 }
