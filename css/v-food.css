@@ -78,6 +78,11 @@ body {
     justify-content: space-between;
     align-items: flex-start;
 }
+
+h3 {
+    color: #fff;
+}
+
 /*header*/
 
 .header1 {
@@ -125,7 +130,7 @@ body {
     bottom: 15px;
     width: 15px;
     height: 15px;
-    background-color: #f5d72f;
+    background-color: #e1af3c;
     border-radius: 50%;
     color: #fff;
     font-size: 8pt;
@@ -786,4 +791,129 @@ width: 100px;
     border: 1px solid rgba(118, 115, 115, .7);
     color: #767373; 
     margin-bottom: 25px;
+}
+
+/*follow us*/
+
+.follow_us {
+    height: 140px;
+    background-color: rgba(26, 25, 25, 0.7);
+    color: #dbd9d9;
+    font-size: 12pt;
+}
+
+.follow_us-text {
+    width: 128px;
+}
+
+.input_e-mail {
+    background-color: #dbd9d9;
+    height: 35px;
+    width: 255px;
+    border-color: #dbd9d9;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+}
+
+.footer-socials {
+    padding-right: 65px;
+    border-right: 1.5px dashed #dbd9d9;
+    height: 80px;
+}
+
+.svg-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #e1af3c;
+}
+
+.svg-icon circle {
+  stroke: #e1af3c;
+  stroke-width: 1;
+}
+
+.subscribe {
+    position: relative;
+}
+
+.e-mail_svg .svg-icon {
+ position: absolute;
+ right: 0px;
+ bottom: 0px;
+}
+
+/*footer*/
+.footer {
+    background-color: #262525;
+    height: 395px;
+    font-size: 10pt;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 55px;
+}
+
+.footer-block {
+    width: 250px;
+}
+
+.footer-logo {
+    height: 37px;
+    width: 146px;
+    margin-bottom: 15px;
+}
+.latest_post-time {
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.latest_post-item {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-bottom: 1px dashed #767373;
+}
+
+.instagramm_feed img {
+    height: 65px;
+    width: 65px;
+    margin: 5px;
+}
+
+.info-item {
+   padding-bottom: 7px;
+    padding-top: 7px;
+    border-bottom: 1px dashed #767373; 
+}
+
+
+.info-item img {
+    height: 12px;
+    width: 12px;
+}
+
+.footer-button {
+    width: 75px;
+    height: 30px;
+    border: 1px solid rgba(118, 115, 115, .7);
+    color: #767373; 
+    margin-top: 25px;
+}
+
+.info-name {
+    width: 70px;
+    margin-right: 20px;
+}
+.info-content  {
+    width: 130px;
 }
