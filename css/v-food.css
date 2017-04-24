@@ -79,9 +79,7 @@ body {
     align-items: flex-start;
 }
 
-h3 {
-    color: #fff;
-}
+
 
 /*header*/
 
@@ -398,7 +396,7 @@ a {
 .most-popular-item-active {
     background-color: #c05488;
     color: #fff;
-    cursor: url(/img/leave_white.png), pointer;
+    cursor: url(../img/leave_white.png), pointer;
     }
 
 .section3-active-section {
@@ -855,6 +853,10 @@ width: 100px;
     font-size: 10pt;
 }
 
+
+.footer h3 {
+    color: #fff;
+}
 .footer-container {
     display: flex;
     flex-direction: row;
