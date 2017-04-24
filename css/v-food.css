@@ -886,6 +886,10 @@ width: 100px;
     border-bottom: 1px dashed #767373;
 }
 
+.latest_post-item:last-child {
+    border-bottom: none;
+}
+
 .instagramm_feed img {
     height: 65px;
     width: 65px;
@@ -898,11 +902,14 @@ width: 100px;
     border-bottom: 1px dashed #767373; 
 }
 
-
+.info-item:last-child {
+    border-bottom: none;
+}
 .info-item img {
     height: 12px;
     width: 12px;
 }
+
 
 .footer-button {
     width: 75px;
