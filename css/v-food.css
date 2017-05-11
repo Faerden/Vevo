@@ -404,6 +404,14 @@ a {
     font-size: 12pt;
 }
 
+.section3 li {
+    list-style-type: none;
+}
+
+.section3 ul {
+    margin-left: 0;
+    padding-left: 0;
+}
 
 .special-offer  {
     width: 470px;
@@ -744,14 +752,11 @@ width: 100px;
 /*section10*/
 .section10 {
     background-color: rgba(239, 239, 239, .7);
-    height: 1300px;
 }
 .section-title {
     height: 100px;
     width: 530px;
-    margin-right: 600px;
-    margin-bottom: 65px;
-    
+    margin-bottom: 30px;
 }
 
 .blog-item {
@@ -780,11 +785,12 @@ width: 100px;
     color: #fff;
 }
 
-.blog-subsection {
-    margin-right: 10px;
-}
 .blog-item-info {
     height: 282px;
+}
+
+.blog-subsection {
+    margin-right: 10px;
 }
 .section10-button {
     width: 99px;
