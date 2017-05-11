@@ -882,6 +882,7 @@ width: 100px;
 
 .footer-block {
     width: 250px;
+    position: relative;
 }
 
 .footer-logo {
@@ -905,10 +906,17 @@ width: 100px;
     border-bottom: none;
 }
 
-.instagramm_feed img {
+.instagram_photo {
     height: 65px;
     width: 65px;
     margin: 5px;
+}
+
+.instagram_photo:hover{
+    position: absolute;
+    transform: scale(7, 7);
+    transition: widtx .5s, height .5s;
+    z-index: 2;
 }
 
 .info-item {
