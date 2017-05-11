@@ -27,6 +27,17 @@ body {
     font-size: 11pt;
 }
 
+li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0; 
+    margin-top: 0;
+}
+
 .art-title {
     font-family: Indie Flower;
     font-size: 24pt;
@@ -404,14 +415,7 @@ a {
     font-size: 12pt;
 }
 
-.section3 li {
-    list-style-type: none;
-}
 
-.section3 ul {
-    margin-left: 0;
-    padding-left: 0;
-}
 
 .special-offer  {
     width: 470px;
