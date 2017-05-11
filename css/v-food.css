@@ -33,6 +33,7 @@ body {
     color: #c05488;
 }
 
+
 .container {
     width: 1200px;
     height: 100%;
@@ -78,7 +79,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
 }
-
 
 
 /*header*/
@@ -656,16 +656,16 @@ a {
 /*section9*/
 
 .section9 {
-    height: 650px;
+    height: 680px;
 }
 
 .section9 .container {
     height: 80%;
 }
 .stuff {
-    width: 250px;
-    height: 303px;
-    margin-right: 25px;
+    width: 303px;
+    height: 347px;
+    margin-right: 30px;
     border-radius: 10px;
     background-color: #ebe7e7;
 }
@@ -673,8 +673,6 @@ a {
 .section9-text {
     height: 100px;
     width: 530px;
-    margin-right: 600px;
-    margin-bottom: 60px;
 }
 
 .section9-button {
@@ -683,15 +681,19 @@ a {
     border: 1px solid rgba(118, 115, 115, .7);
     color: #767373;
     margin-top: 60px;
+    margin-left: 430px;
 }
 
 .stuff_block {
+    margin-top: 55px;
+}
+.stuff_block-item {
     position: relative;       
 
 }
 .stuff-info {
     position: absolute;
-    width: 250px;
+    width: 303px;
     height: 25%;
     background-color: rgba(192, 84, 136, .95);
     bottom: 3px;
@@ -732,10 +734,10 @@ width: 100px;
     margin-bottom: 80px;
 }
 
-.stuff_block:hover .stuff-block-hover {
+.stuff_block-item:hover .stuff-block-hover {
     top: 0px;
-    height: 304px;
-    width: 251px;
+    height: 347px;
+    width: 303px;
     display: flex;
 }
 
